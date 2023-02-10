@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grocery_store.Registration">
+   <children>
+      <Button fx:id="button1" layoutX="432.0" layoutY="274.0" mnemonicParsing="false" text="Зарегистрироваться" />
+      <TextField fx:id="login" layoutX="421.0" layoutY="168.0" promptText="Придумайте логин" />
+      <TextField fx:id="pass" layoutX="421.0" layoutY="220.0" promptText="Придумайте пароль" />
+      <Label layoutX="441.0" layoutY="116.0" text="Регистрация">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Label layoutX="38.0" layoutY="38.0" text="Продуктовый магазин" textFill="#f6a843">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="259.0" fitWidth="250.0" layoutX="60.0" layoutY="116.0">
+         <image>
+            <Image url="@9..jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

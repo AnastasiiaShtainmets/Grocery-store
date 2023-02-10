@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grocery_store.Vegan">
+   <children>
+      <Label layoutX="328.0" layoutY="111.0" text="Может вы вегетарианец?" textFill="#4abc19">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Label>
+      <Button fx:id="Yes" layoutX="328.0" layoutY="243.0" mnemonicParsing="false" text="Да" textFill="#13532b">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <Button fx:id="No" layoutX="507.0" layoutY="200.0" mnemonicParsing="false" text="Нет">
+         <font>
+            <Font size="15.0" />
+         </font></Button>
+      <ImageView fitHeight="324.0" fitWidth="213.0" layoutX="31.0" layoutY="38.0">
+         <image>
+            <Image url="@11..jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.grocery_store.Lactose1">
+   <children>
+      <Label layoutX="263.0" layoutY="58.0" text="У вас есть непереносимость лактозы?" textFill="#c7a12f">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="Yes" layoutX="340.0" layoutY="152.0" mnemonicParsing="false" text="Да">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="No" layoutX="481.0" layoutY="209.0" mnemonicParsing="false" text="Нет">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <ImageView fitHeight="289.0" fitWidth="162.0" layoutX="61.0" layoutY="65.0">
+         <image>
+            <Image url="@16..jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>
